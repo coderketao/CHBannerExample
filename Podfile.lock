@@ -1,0 +1,70 @@
+PODS:
+  - Logan (1.2.7):
+    - Logan/mbedtls (= 1.2.7)
+  - Logan/mbedtls (1.2.7)
+  - Masonry (1.1.0)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.3.1)
+  - QXDBUIKit (0.2.1):
+    - MBProgressHUD (~> 0.9.1)
+    - MJRefresh
+    - QXFoundation
+    - QXLog
+    - QXUIKit
+    - RTRootNavigationController
+  - QXFoundation (0.4.2)
+  - QXLog (0.1.5):
+    - Logan (~> 1.2.5)
+  - QXRBizUIKit (0.1.0):
+    - Masonry
+    - QXDBUIKit
+  - QXUIKit (0.2.9):
+    - Masonry
+    - MBProgressHUD (~> 0.9.1)
+  - RTRootNavigationController (0.7.2):
+    - RTRootNavigationController/Core (= 0.7.2)
+  - RTRootNavigationController/Core (0.7.2)
+
+DEPENDENCIES:
+  - MJRefresh
+  - QXRBizUIKit (from `http://47.93.223.65:9008/client-ios/BizComponent/QXRBizUIKit.git`, branch `dev`)
+  - QXUIKit
+
+SPEC REPOS:
+  http://47.93.223.65:9008/client-ios/specs.git:
+    - QXDBUIKit
+    - QXFoundation
+    - QXLog
+    - QXUIKit
+  https://github.com/CocoaPods/Specs.git:
+    - Logan
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - RTRootNavigationController
+
+EXTERNAL SOURCES:
+  QXRBizUIKit:
+    :branch: dev
+    :git: http://47.93.223.65:9008/client-ios/BizComponent/QXRBizUIKit.git
+
+CHECKOUT OPTIONS:
+  QXRBizUIKit:
+    :commit: b3947b65b748714d4a38d241c65a6ebbf19469c2
+    :git: http://47.93.223.65:9008/client-ios/BizComponent/QXRBizUIKit.git
+
+SPEC CHECKSUMS:
+  Logan: d7e508f88d596b186e9cdcc0cf35b45c89bbc22f
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
+  QXDBUIKit: 7c75d92bf9a915e7da53fbfd3ace169e6d2c293d
+  QXFoundation: 2f844b3ab63a2bce7b946a9d5feb5999e5b4423d
+  QXLog: 4bbe4b427dddbdf31b572492beb4a9ca677d5462
+  QXRBizUIKit: 7ec69fd94808b8b6b3c5e5796a9fc7b92350d88a
+  QXUIKit: 26e771006e98b774ae096ab2e27f7d35f6761293
+  RTRootNavigationController: 8344c2352d6d40fa370d0366efae2c84a945213f
+
+PODFILE CHECKSUM: 737e8754ae78b4220d25d9791bbdab688315f5fa
+
+COCOAPODS: 1.8.4
